@@ -1,5 +1,4 @@
 # Grizzly with websockets
-
 I have always worked with Tomcat in my every day work, but I don't like Tomcat's approach.
 Especially the fact they take over your main (main method that is).
 
