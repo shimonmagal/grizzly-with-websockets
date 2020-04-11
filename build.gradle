@@ -27,6 +27,14 @@ dependencies {
 	compile 'org.glassfish.jersey.containers:jersey-container-grizzly2-http:2.31'
 
 	compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.30'
+
+	compile group: 'org.glassfish.grizzly', name: 'grizzly-project', version: '2.4.4'
+	compile group: 'org.glassfish.grizzly', name: 'grizzly-framework', version: '2.4.4'
+
+	compile group: 'org.glassfish.main.grizzly', name: 'glassfish-grizzly-extra-all', version: '5.1.0'
+	compile 'org.glassfish.grizzly:grizzly-websockets:2.4.4'
+	compile group: 'org.glassfish.grizzly', name: 'grizzly-http-servlet', version: '2.4.4'
+	compile group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.1'
 }
 
 distributions {
