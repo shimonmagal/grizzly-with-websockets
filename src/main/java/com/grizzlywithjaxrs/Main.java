@@ -1,6 +1,6 @@
 package com.grizzlywithjaxrs;
 
-import com.grizzlywithjaxrs.ws.MessagesWebSocket;
+import com.grizzlywithjaxrs.ws.EchoWebSocket;
 import org.glassfish.grizzly.http.server.HttpHandler;
 import org.glassfish.grizzly.http.server.HttpServer;
 import org.glassfish.grizzly.http.server.NetworkListener;
@@ -48,7 +48,7 @@ public class Main
 			listener.registerAddOn(addOn);
 		}
 
-		WebSocketEngine.getEngine().register("", "/messages", new MessagesWebSocket());
+		WebSocketEngine.getEngine().register("", "/messages", new EchoWebSocket());
 
 		// shutdown hook
 		Runtime.getRuntime().addShutdownHook(new Thread(new Runnable() {

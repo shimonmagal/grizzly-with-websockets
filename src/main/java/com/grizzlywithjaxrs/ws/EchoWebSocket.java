@@ -6,7 +6,7 @@ import org.glassfish.grizzly.websockets.*;
 import java.util.HashSet;
 import java.util.Set;
 
-public class MessagesWebSocket extends WebSocketApplication {
+public class EchoWebSocket extends WebSocketApplication {
 	Set<WebSocket> sockets = new HashSet<>();
 
 	@Override
