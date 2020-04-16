@@ -48,7 +48,7 @@ public class Main
 			listener.registerAddOn(addOn);
 		}
 
-		WebSocketEngine.getEngine().register("", "/messages", new EchoWebSocket());
+		WebSocketEngine.getEngine().register("", "/echo", new EchoWebSocket());
 
 		// shutdown hook
 		Runtime.getRuntime().addShutdownHook(new Thread(new Runnable() {
