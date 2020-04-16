@@ -15,4 +15,5 @@ so if you hit `gradlew build` - it will create a dir bin with the script
 
 2. You have a simple configuration system to control things like serverPort, but then of course other configurable parameters.
 
-So overall this is a nice example to start from.
+So overall this is a nice example to start from -
+you can work with both api over jaxrs and websockets. (The reason this is made available by the way is that WS actually use http to do the handshake and then switch protocol).
