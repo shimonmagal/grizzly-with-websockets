@@ -5,7 +5,9 @@ Especially the fact they take over your main (main method that is).
 I found solace in Grizzly. Here I pair it with jaxrs and websockets.
 So this is a basic server that works and you can hit:
 http://localhost:8080/api/hello from your browser after you start.
+
 You can also test some basic websockets - using https://www.piesocket.com/websocket-tester
+You need to connect to ws://localhost:8080/echo
 
 Two additional nice features you get:
 1. Since this is a gradle project I also added some plugins that generate a bat or sh to run your server -
